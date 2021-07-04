@@ -1,7 +1,7 @@
 from flask import jsonify, make_response
 
 
-class ControllerErrorHandler:
+class ErrorHandlerController:
 
     def __init__(self):
         pass

@@ -1,7 +1,7 @@
 from flask import jsonify
 
 
-class ControllerHelloPersonLastName:
+class HelloPersonLastNameController:
 
     def __init__(self):
         pass

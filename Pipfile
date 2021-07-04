@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+passlib = "*"
+psycopg2-binary = "*"
+Flask = "*"
+Flask-SQLAlchemy = "*"
+SQLAlchemy = "*"
+flask_restful_url_generator = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
