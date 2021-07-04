@@ -12,9 +12,9 @@ $ python models.py
 curl --location --request POST 'http://127.0.0.1:9000/user' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "user_name": "rodrik",
+    "user_name": "degel",
     "password":  "password",
-    "email": "rodrigo@gmail.com",
-    "phone": "3104897244"
+    "email": "some@mail.com",
+    "phone": "+573114897346"
 }'
 ```
