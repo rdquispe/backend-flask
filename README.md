@@ -1,21 +1,20 @@
-# backend-flask
+# Backend Flask
 
 
-```
-$ pip install -r requirements.txt
-
-Migracion
-
+## Migrations
+```shell
 $ python models.py
 ```
 
 
-## endpoint
+## Endpoints
 ```shell
 curl --location --request POST 'http://127.0.0.1:9000/user' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "user_name": "user_name",
-    "password":  "password"
+    "user_name": "rodrik",
+    "password":  "password",
+    "email": "rodrigo@gmail.com",
+    "phone": "3104897244"
 }'
 ```

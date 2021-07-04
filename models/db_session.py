@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session
 from sqlalchemy.orm import sessionmaker
-from db_config import DB_URI
+from models.configuration import DB_URI
 
 Session = sessionmaker(autocommit=False,
                        autoflush=False,
