@@ -1,5 +1,6 @@
 passlib
 flask
 flask-sqlalchemy
-psycopg2
+psycopg2-binary
 SQLAlchemy
+flask-restful-url-generator

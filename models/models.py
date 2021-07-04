@@ -17,8 +17,7 @@ class User(Base):
 
 if __name__ == "__main__":
     from sqlalchemy import create_engine
-    from db_config import DB_URI
 
-    engine = create_engine(DB_URI)
+    engine = create_engine("postgresql://homestead:secret@localhost/backend")
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
